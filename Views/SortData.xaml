@@ -1,0 +1,44 @@
+<UserControl
+    x:Class="GHJTool.Views.SortData"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:GHJTool.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel
+            Margin="10,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Orientation="Horizontal">
+            <Label
+                Height="28"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Content="图像路径：" />
+            <TextBox
+                x:Name="txtPath"
+                Width="400"
+                Height=" 28"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                TextAlignment="Center" />
+            <Button
+                Width="50"
+                Height=" 28"
+                Margin="5,0,0,0"
+                Click="LoadPathAnalyze_Click"
+                Content="加载文件" />
+            <Button
+                Name="btnAnalyze"
+                Width="50"
+                Height=" 28"
+                Margin="5,0,0,0"
+                Click="Analyze_Click"
+                Content="分析" />
+        </StackPanel>
+    </Grid>
+</UserControl>

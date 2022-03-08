@@ -1,0 +1,44 @@
+{
+  "CaluAlgoType": 0,
+  "CaluAlgoTypes": {},
+  "RoiX": 201,
+  "RoiY": 69,
+  "RoiWidth": 857,
+  "RoiHeight": 800,
+  "MonitorRoiX": 395,
+  "MonitorRoiY": 288,
+  "MonitorRoiWidth": 489,
+  "MonitorRoiHeight": 422,
+  "CalcAlgos": [
+    2,
+    1,
+    6,
+    5,
+    4,
+    3
+  ],
+  "ImageSaveFolder": "D:\\data",
+  "CaptrueImageFile": "",
+  "MonitorImageFile": "",
+  "ImgSaveMode": 1,
+  "SaveTimeLength": 0.5,
+  "LoopTimes": 1,
+  "AllowMonitorCompensate": true,
+  "SaveImageCsvEnable": true,
+  "SaveMonitorImage": false,
+  "SaveMonitorCsv": false,
+  "SaveMonitorRoiImage": false,
+  "SaveCaptureImage": false,
+  "SaveCaptureCsv": true,
+  "SaveCaptureRoiImage": false,
+  "DynamicRoiPos": true,
+  "UseLocalTestImage": false,
+  "UsePowerMeter": true,
+  "CameraConfigs": {
+    "00E33539737": {
+      "Name": "GisCcd",
+      "Sn": "00E33539737",
+      "Type": 0
+    }
+  }
+}

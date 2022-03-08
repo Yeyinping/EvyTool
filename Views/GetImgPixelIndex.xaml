@@ -1,0 +1,23 @@
+<UserControl x:Class="GHJTool.Views.GetImgPixelIndex"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GHJTool.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="280" d:DesignWidth="460">
+    <Grid>
+        
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal"  Margin="10,0">
+                <Label Height="28" Content="图像路径：" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <TextBox x:Name="txtPath" Width="240" Height=" 28" TextAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button Content="LoaPath" Width="50" Margin="5,0,0,0" Height=" 28"
+                        Click="LoadPath_Click"/>
+                <Button Content="GetMaxXY" Width="70" Margin="5,0,0,0" Height=" 28"
+                        Click="GetValue_Click"/>
+            </StackPanel>
+            <RichTextBox x:Name="txtGetImgPixelIndexLog" MinHeight="200" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
